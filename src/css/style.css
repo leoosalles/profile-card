@@ -1,6 +1,6 @@
 body {
-    background: url(../src/images/bg-pattern-top.svg) -215px -440px no-repeat,
-    url(../src/images/bg-pattern-bottom.svg) 600px 300px no-repeat;
+    background: url(../images/bg-pattern-top.svg) -215px -440px no-repeat,
+    url(../images/bg-pattern-bottom.svg) 600px 300px no-repeat;
     background-color: var(--background-color);
     background-attachment: fixed;
     background-size: 65% auto, 65% auto;
@@ -26,7 +26,7 @@ div.card {
     position: relative;
     height: 95px;
     max-width: 100%;
-    background-image: url(../src/images/bg-pattern-card.svg);
+    background-image: url(../images/bg-pattern-card.svg);
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }
