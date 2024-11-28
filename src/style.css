@@ -1,0 +1,106 @@
+body {
+    background: url(../src/images/bg-pattern-top.svg) -215px -440px no-repeat,
+    url(../src/images/bg-pattern-bottom.svg) 600px 300px no-repeat;
+    background-color: var(--background-color);
+    background-attachment: fixed;
+    background-size: 65% auto, 65% auto;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card {
+    width: 235px;
+    height: 250px;
+    background-color: white;
+    border-radius:12px;
+}
+
+.profile-picture {
+    display: flex;
+    position: relative;
+    height: 95px;
+    max-width: 100%;
+    background-image: url(../src/images/bg-pattern-card.svg);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.picture {
+    position: absolute;
+    max-width: 70px;
+    border: 4px solid white;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 47px;
+    font-size: 12px;
+    padding-bottom: 16px;
+    border-bottom: solid 1px silver;
+}
+
+.name {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.age {
+    color: var(--text-color);
+    font-weight: 700;
+    margin-left: 4px
+}
+
+.city {
+    color: var(--text-color);
+    font-size: 9.5px;
+    font-weight: 400;
+}
+
+.profile-statistics {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 17px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+.stats-info {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .4px;
+}
+
+.stats-title {
+    color: var(--text-color);
+    font-size: 8px;
+    letter-spacing: .4px;
+    padding-top: 1.5px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background: url(../src/images/bg-pattern-top.svg) -250px -475px no-repeat,
+        url(../src/images/bg-pattern-bottom.svg) 600px 375px no-repeat;
+        background-color: var(--background-color);
+        background-size: auto;
+        background-attachment: fixed;
+    }
+}
